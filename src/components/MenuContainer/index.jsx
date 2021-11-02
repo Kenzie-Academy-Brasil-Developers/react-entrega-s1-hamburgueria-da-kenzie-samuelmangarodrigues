@@ -20,13 +20,13 @@ const MenuContainer = ({ products, input, filteredProducts, HandleClick }) => {
             ))
           : filteredProducts.map((item, ind) => (
               <ul key={ind}>
-                <img src={item.img} alt={item.img} />
+                <img className="Imgs" src={item.img} alt={item.img} />
                 <li>
-                  <strong>{item.name}</strong>
+                  <strong className="Name">{item.name}</strong>
                 </li>
-                <li>{item.category}</li>
-                <li>R$ {item.price}</li>
-                <button onClick={() => HandleClick(item.id)}>
+                <li className="categ">{item.category}</li>
+                <li className="price">R$ {item.price}</li>
+                <button className="btns" onClick={() => HandleClick(item.id)}>
                   Adicionar no carrinho
                 </button>
               </ul>
