@@ -1,0 +1,158 @@
+* {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+.containerProducts {
+  display: flex;
+  padding: 0;
+  width: 800px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+  width: 200px;
+  height: 350px;
+  border: 1px solid rgb(185, 180, 180);
+  border-radius: 5px;
+}
+
+.Name {
+  font-size: 22px;
+}
+.categ {
+  color: grey;
+  font-size: 16px;
+}
+.price {
+  color: green;
+  font-size: 20px;
+}
+.title {
+  background-color: rgb(224, 223, 223);
+  display: flex;
+  width: 100%;
+  margin-left: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.burguer {
+  margin-left: 26px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.kenzie {
+  color: red;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.totalcont {
+  display: flex;
+}
+.inptBtns {
+  width: 400px;
+  margin: 10px;
+  display: flex;
+  border-color: white;
+  border-radius: 8px;
+  height: 40px;
+  background-color: white;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+.inptBtns :hover {
+  border-color: black;
+}
+.Inpts {
+  background-color: white;
+  border: 0px white;
+  height: 35px;
+  margin: 5px;
+  border-radius: 7px;
+}
+
+.btns {
+  height: 35px;
+  background-color: green;
+  border: 1px solid green;
+  font-size: 16px;
+  color: white;
+  margin: 10px;
+  border-radius: 6px;
+}
+.btns:hover {
+  color: white;
+  background-color: rgb(6, 82, 6);
+  transition: 0.3s;
+}
+.Imgs {
+  width: 200px;
+}
+.ImgCont {
+  background-color: rgb(224, 223, 223);
+  margin-bottom: 8px;
+}
+.sales {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0%;
+}
+.imgSales {
+  width: 100px;
+  background-color: rgb(202, 197, 197);
+  margin: 10px;
+  border-radius: 7px;
+}
+.showSales {
+  background-color: rgb(238, 232, 232);
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+.titleSale {
+  background-color: green;
+  color: white;
+  font-size: 22px;
+  height: 65px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px;
+}
+.nameCat {
+  display: flex;
+  flex-direction: column;
+}
+.nameSale {
+  font-size: 18px;
+}
+.btnsrm {
+  background-color: rgb(97, 93, 93);
+  border: 1px solid grey;
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.btnsrm:hover {
+  background-color: lightgray;
+  color: black;
+  transition: 0.5s;
+}
+.totalCont {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 20px;
+}
