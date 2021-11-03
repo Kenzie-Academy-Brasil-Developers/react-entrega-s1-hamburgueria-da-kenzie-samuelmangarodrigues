@@ -44,5 +44,9 @@ body ul {
   }
   .showSales {
     margin: 0px;
+    width: 100vh;
+  }
+  .title {
+    width: 100vh;
   }
 }
